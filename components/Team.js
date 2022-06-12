@@ -24,19 +24,19 @@ const Team = () => {
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
-                <h3>Nathaniel McKenzie</h3>
+                <h3>Med Ali Jlassi</h3>
                 <p>App Designer</p>
                 <div className="team-one__image">
                   <img src={TeamMemeber1} alt="" />
                 </div>
                 <div className="team-one__social">
-                  <a href="#">
+                  <a href="https://www.facebook.com/daly.jelassi/">
                     <i className="fab fa-facebook-square"></i>
                   </a>
                   <a href="#">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/dalyjls/">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </div>

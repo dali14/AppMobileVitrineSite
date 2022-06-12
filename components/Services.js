@@ -8,7 +8,7 @@ const Services = () => {
         <BlockTitle
           textAlign="center"
           paraText="Feature List"
-          titleText={`Appton Providing You \n Best Features`}
+          titleText={`Foot Plus Vous fournir \n Meilleures caractéristiques`}
         />
         <div className="row">
           <div className="col-lg-3 col-md-6">
@@ -18,8 +18,8 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-computer-graphic"></i>
                 </div>
-                <h3>Easy to Edit</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <h3>Facile à réserve</h3>
+                <p>facilité de passer et consulté votre réservations.</p>
               </div>
             </div>
           </div>
@@ -30,8 +30,8 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-development"></i>
                 </div>
-                <h3>Fully Secure</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <h3>Entièrement sécurisé</h3>
+                <p>Tous les donnes son chiffré , Login pour accède au dashboard </p>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-development1"></i>
                 </div>
-                <h3>Manage User</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <h3>Gérer l'utilisateur</h3>
+                <p>accede a l'espace Client pour voire les reservation </p>
               </div>
             </div>
           </div>
@@ -54,8 +54,8 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-responsive"></i>
                 </div>
-                <h3>Free Trial</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <h3>Essai gratuit</h3>
+                <p>Essai gratuit pour 1 mois et bénéficier les aventage de Dashboard (P)</p>
               </div>
             </div>
           </div>

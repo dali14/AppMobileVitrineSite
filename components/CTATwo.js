@@ -15,7 +15,7 @@ const CTATwo = () => {
               <BlockTitle
                 textAlign="left"
                 paraText="Feature List"
-                titleText={`Appton Providing You \n Best Features`}
+                titleText={`Foot Plus Providing You \n Best Features`}
               />
               <div className="cta-two__icon-wrap">
                 <div className="cta-two__icon-single">
@@ -37,9 +37,7 @@ const CTATwo = () => {
               </div>
               <div className="cta-two__text">
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply
-                  dummy text of the printing laborum perspiciatis unde.
+                 Rien n'est compliqué. Et il s'agit de ouvrire ton telephone et accec a l espace Terrain
                 </p>
               </div>
               <a href="#" className="thm-btn cta-two__btn">

@@ -56,14 +56,14 @@ const Banner = () => {
               </form>
               <div className="mc-form__response"></div>
               <h3>
-                Manage Your <br /> Project with <br /> Application
+               Gère ton <br /> Projet avec <br /> Application
               </h3>
               <p>
-                Nulla facilisi. Proin felis neque, suscipit egestas erat a{" "}
-                <br /> tincidunt finibus magna consectetur lacus.
+               Rien n'est compliqué. Et il s'agit de ouvrire ton {" "}
+                <br /> telephone et accec a l espace Terrain.
               </p>
               <a href="#" className="thm-btn banner-one__btn">
-                <span>Discover More</span>
+                <span>Découvrir plus</span>
               </a>
             </div>
           </div>
