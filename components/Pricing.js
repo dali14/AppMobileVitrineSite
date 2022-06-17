@@ -87,7 +87,7 @@ const Pricing = (props) => {
                       <li>Gestion Competition</li>
                     </ul>
                     <a href="#" className="thm-btn pricing-one__btn">
-                      <span>Choisir un forfait</span>
+                      <span>Choisir un Forfait</span>
                     </a>
 
                     <span>No hidden charges!</span>

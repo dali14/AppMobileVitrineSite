@@ -14,11 +14,11 @@ const Footer = () => {
             <form action="#" className="mailchimp-one__form">
               <input
                 type="text"
-                placeholder="Enter your email address"
+                placeholder="Entrez votre adresse email"
                 name="email"
               />
               <button className="thm-btn mailchimp-one__btn" type="submit">
-                <span>Register Now</span>
+                <span>S'inscrire maintenant</span>
               </button>
             </form>
           </div>
