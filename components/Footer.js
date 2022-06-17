@@ -35,9 +35,9 @@ const Footer = () => {
                     <img src={FooterLogo} width="129" alt="" />
                   </a>
                   <p>
-                    Lorem Ipsum is simply dummy text the <br /> printing and
-                    setting industry. Lorm Ipsum
-                    <br /> has been the text ever.
+                    La premier plateforme de gestion<br />
+                    et reservation de terrain Football 
+                    <br /> En Tunisie.
                   </p>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container text-center">
-            <p>© copyright 2020 by Layerdrops.com</p>
+            <p>© copyright 2022 by FootPlus.com</p>
           </div>
         </div>
       </footer>

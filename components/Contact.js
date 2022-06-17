@@ -13,31 +13,31 @@ const Contact = () => {
             <form className="contact-form-validated contact-one__form">
               <BlockTitle
                 textAlign="left"
-                paraText="Contact Now"
-                titleText={`Have Question? Write \n a Message`}
+                paraText="Contacter maintenant"
+                titleText={`Vous avez une question ?\n Écrire un message`}
               />
               <div className="row">
                 <div className="col-lg-6">
-                  <input type="text" placeholder="Name" name="name" />
+                  <input type="text" placeholder="Nom" name="name" />
                 </div>
                 <div className="col-lg-6">
-                  <input type="text" placeholder="Email Address" name="email" />
+                  <input type="text" placeholder="Email Addresse" name="email" />
                 </div>
                 <div className="col-lg-6">
-                  <input type="text" placeholder="Subject" name="subject" />
+                  <input type="text" placeholder="Sujet" name="subject" />
                 </div>
                 <div className="col-lg-6">
-                  <input type="text" placeholder="Phone Number" name="phone" />
+                  <input type="text" placeholder="Telephone" name="phone" />
                 </div>
                 <div className="col-lg-12">
                   <textarea
-                    placeholder="Write Message"
+                    placeholder="Écrire Message"
                     name="message"
                   ></textarea>
                 </div>
                 <div className="col-lg-12 text-left">
                   <button type="submit" className="thm-btn contact-one__btn">
-                    <span>Send Message</span>
+                    <span>Envoyer Message</span>
                   </button>
                 </div>
               </div>

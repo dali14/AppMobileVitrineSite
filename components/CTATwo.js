@@ -14,8 +14,8 @@ const CTATwo = () => {
             <div className="cta-two__content">
               <BlockTitle
                 textAlign="left"
-                paraText="Feature List"
-                titleText={`Foot Plus Providing You \n Best Features`}
+                paraText=""
+                titleText={`Foot Plus vous fournit \n Meilleures Caractéristiques`}
               />
               <div className="cta-two__icon-wrap">
                 <div className="cta-two__icon-single">
@@ -37,7 +37,7 @@ const CTATwo = () => {
               </div>
               <div className="cta-two__text">
                 <p>
-                 Rien n'est compliqué. Et il s'agit de ouvrire ton telephone et accec a l espace Terrain
+                 Rien n'est compliqué. Et il s'agit de ouvrire ton telephone et accède a votre Espace Terrain
                 </p>
               </div>
               <a href="#" className="thm-btn cta-two__btn">

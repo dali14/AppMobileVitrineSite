@@ -8,7 +8,7 @@ const Services = () => {
         <BlockTitle
           textAlign="center"
           paraText="Feature List"
-          titleText={`Foot Plus Vous fournir \n Meilleures caractéristiques`}
+          titleText={`Foot Plus Vous Fournir \n Meilleures Caractéristiques`}
         />
         <div className="row">
           <div className="col-lg-3 col-md-6">

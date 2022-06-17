@@ -16,12 +16,12 @@ const Team = () => {
       <div className="container">
         <BlockTitle
           textAlign="center"
-          paraText="Expert People"
-          titleText={`Meet Our Professional \n Team Members`}
+          paraText="Personnes expertes"
+          titleText={`Membres de l'équipe`}
         />
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">
-            <div className="team-one__single">
+            {/* <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
                 <h3>Med Ali Jlassi</h3>
@@ -41,25 +41,25 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
-                <h3>Ronald Parks</h3>
-                <p>App Designer</p>
+                <h3>Med Ali Jlassi</h3>
+                <p>Web Mobile Developer</p>
                 <div className="team-one__image">
-                  <img src={TeamMemeber2} alt="" />
+                  <img src={TeamMemeber1} alt="" />
                 </div>
                 <div className="team-one__social">
-                  <a href="#">
+                  <a href="https://www.facebook.com/daly.jelassi/">
                     <i className="fab fa-facebook-square"></i>
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
+                  <a href="https://github.com/dali14">
+                    <i className="fab fa-github"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/dalyjls/">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </div>
@@ -70,8 +70,8 @@ const Team = () => {
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
-                <h3>Rachel Walker</h3>
-                <p>App Designer</p>
+                <h3>Chaima Naweni</h3>
+                <p>Web Mobile Developer</p>
                 <div className="team-one__image">
                   <img src={TeamMemeber3} alt="" />
                 </div>
@@ -79,10 +79,10 @@ const Team = () => {
                   <a href="#">
                     <i className="fab fa-facebook-square"></i>
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
+                  <a href="https://github.com/chaima-naweni/">
+                    <i className="fab fa-github"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.facebook.com/chaima.naweni">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </div>
@@ -90,7 +90,7 @@ const Team = () => {
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
-            <div className="team-one__single">
+            {/* <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
                 <h3>Willie Castillo</h3>
@@ -110,7 +110,7 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

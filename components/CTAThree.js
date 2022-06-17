@@ -11,9 +11,9 @@ const CTAThree = () => {
       <img src={Cta3Shape2} className="cta-three__bg-2" alt="" />
       <Container className="text-center">
         <h3>
-          Download our App Today & <br /> Experience Endless Possibilities
+        Téléchargez Notre Application & Découvrez<br /> Des possibilités infinies
         </h3>
-        <p>and get started with a free 1 month trial for your business </p>
+        <p>et démarrez avec un essai gratuit d'un mois pour votre entreprise</p>
         <div className="cta-three__btn-wrap">
           <a href="#" className="cta-three__btn">
             <i className="fa fa-play"></i>

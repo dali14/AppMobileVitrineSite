@@ -78,18 +78,16 @@ const Testimonials = (props) => {
               <BlockTitle
                 textAlign="left"
                 paraText="Our Testimonials"
-                titleText={`What Our Customers Are \n Talking About`}
+                titleText={`Nos client et leur \n  commentaire`}
               />
               <div className="testimonials-one__carousel">
                 <Swiper {...paramsTwo}>
                   <div className="swiper-slide">
                     <div className="testimonials-one__single">
                       <p className="testimonials-one__text">
-                        This is due to their excellent service, competitive
-                        pricing and customer support. It’s throughly refresing
-                        to get such a personal touch. Duis aute irure dolor in
-                        repre henderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                      Cela est dû à leur excellent service, 
+                      à leurs prix compétitifs et à leur support client. 
+                      C'est vraiment rafraîchissant d'avoir une touche aussi personnelle.
                       </p>
 
                       <h3 className="testimonials-one__title">Joe Kolmer</h3>
@@ -98,11 +96,9 @@ const Testimonials = (props) => {
                   <div className="swiper-slide">
                     <div className="testimonials-one__single">
                       <p className="testimonials-one__text">
-                        This is due to their excellent service, competitive
-                        pricing and customer support. It’s throughly refresing
-                        to get such a personal touch. Duis aute irure dolor in
-                        repre henderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                      Cela est dû à leur excellent service, 
+                      à leurs prix compétitifs et à leur support client. 
+                      C'est vraiment rafraîchissant d'avoir une touche aussi personnelle.
                       </p>
 
                       <h3 className="testimonials-one__title">Darrin Martos</h3>
@@ -111,11 +107,9 @@ const Testimonials = (props) => {
                   <div className="swiper-slide">
                     <div className="testimonials-one__single">
                       <p className="testimonials-one__text">
-                        This is due to their excellent service, competitive
-                        pricing and customer support. It’s throughly refresing
-                        to get such a personal touch. Duis aute irure dolor in
-                        repre henderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                      Cela est dû à leur excellent service, 
+                      à leurs prix compétitifs et à leur support client. 
+                      C'est vraiment rafraîchissant d'avoir une touche aussi personnelle.
                       </p>
 
                       <h3 className="testimonials-one__title">Tammy Daniely</h3>

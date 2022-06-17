@@ -23,7 +23,7 @@ const NavLinks = () => {
           offset={-70}
           duration={500}
         >
-          Features
+          Fonctionnalités
         </ScrollLink>
       </li>
       <li>
@@ -35,7 +35,7 @@ const NavLinks = () => {
           offset={-70}
           duration={500}
         >
-          Pricing
+          Abonnement
         </ScrollLink>
       </li>
       <li>
@@ -47,7 +47,7 @@ const NavLinks = () => {
           offset={-70}
           duration={500}
         >
-          Team
+          Équipe
         </ScrollLink>
       </li>
       <li>
@@ -59,7 +59,7 @@ const NavLinks = () => {
           offset={-70}
           duration={500}
         >
-          Screens
+          Écrans
         </ScrollLink>
       </li>
       <li className="dropdown">
@@ -72,7 +72,7 @@ const NavLinks = () => {
         <ul className={dropdownStatus === true ? "active" : null}>
           <li>
             <Link href="/blog">
-              <a>News</a>
+              <a>Nouvelles</a>
             </Link>
           </li>
           <li>

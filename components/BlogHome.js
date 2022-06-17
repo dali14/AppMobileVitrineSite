@@ -13,27 +13,27 @@ const BlogHome = () => {
       <Container>
         <BlockTitle
           textAlign="center"
-          paraText="Latest News & Articles"
-          titleText={`Checkout What’s Going \n on in Our Blog`}
+          paraText="Dernières Nouvelles "
+          titleText={`Découvrez quelque Avantage \n de notre App`}
         />
         <Row>
           <BlogPost
             postImage={BlogImage1}
-            postTitle="Leverage agile frame works to provide a synopsis for"
+            postTitle="Afficher la localisation des terrains les plus proches ."
             postDate="20 Feb"
             postCommentCount="2 comments"
             postLink="/blog-post"
           />
           <BlogPost
             postImage={BlogImage2}
-            postTitle="Leverage agile frame works to provide a synopsis for"
+            postTitle="Consulter Etat de Votre reservation Par app Mobile "
             postDate="20 Feb"
             postCommentCount="2 comments"
             postLink="/blog-post"
           />
           <BlogPost
             postImage={BlogImage3}
-            postTitle="Leverage agile frame works to provide a synopsis for"
+            postTitle="Infrastructure de paiement Web et Mobile sécurisée ."
             postDate="20 Feb"
             postCommentCount="2 comments"
             postLink="/blog-post"

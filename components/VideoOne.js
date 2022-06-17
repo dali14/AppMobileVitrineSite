@@ -26,7 +26,7 @@ const VideoOne = () => {
           <BlockTitle
             textAlign="left"
             paraText="Video Tutorial"
-            titleText={`Watch Now \n Our Video \n Tutorial`}
+            titleText={`Regarde \n Notre vidéo \n Tutorial`}
           />
         </div>
         <ModalVideo

@@ -9,8 +9,8 @@ const Pricing = (props) => {
       <Container>
         <BlockTitle
           textAlign="center"
-          paraText="Pricing Tables"
-          titleText={`Choose Pricing Plans Which \n Suits Your Needs`}
+          paraText="Nos Offres"
+          titleText={`Choisissez les forfaits qui Convient \n à vos besoins`}
         />
         <ul
           className="list-inline text-center switch-toggler-list"
@@ -25,7 +25,7 @@ const Pricing = (props) => {
                 setPlan(false);
               }}
             >
-              Monthly
+              Mensuel
             </a>
           </li>
           <li>
@@ -47,7 +47,7 @@ const Pricing = (props) => {
                 setPlan(true);
               }}
             >
-              Annualy
+              Annuel
             </a>
           </li>
         </ul>
@@ -61,9 +61,9 @@ const Pricing = (props) => {
                     <p>Basic Pack</p>
                     <h3>$59.00</h3>
                     <ul className="list-unstyled pricing-one__list">
-                      <li>Extra features</li>
-                      <li>Lifetime free support</li>
-                      <li>Upgrate options</li>
+                      <li>Dashboard (P) </li>
+                      <li>Gestion Reservations</li>
+                      <li>Gestion Competition</li>
                       <li>Full access</li>
                     </ul>
                     <a href="#" className="thm-btn pricing-one__btn">
@@ -81,13 +81,13 @@ const Pricing = (props) => {
                     <p>Standard Pack</p>
                     <h3>$79.00</h3>
                     <ul className="list-unstyled pricing-one__list">
-                      <li>Extra features</li>
-                      <li>Lifetime free support</li>
-                      <li>Upgrate options</li>
-                      <li>Full access</li>
+                      <li>Dashboard (P) X 1</li>
+                      <li>Accès total</li>
+                      <li>Gestion Reservations</li>
+                      <li>Gestion Competition</li>
                     </ul>
                     <a href="#" className="thm-btn pricing-one__btn">
-                      <span>Choose Plan</span>
+                      <span>Choisir un forfait</span>
                     </a>
 
                     <span>No hidden charges!</span>
@@ -101,13 +101,13 @@ const Pricing = (props) => {
                     <p>Ultimate Pack</p>
                     <h3>$99.00</h3>
                     <ul className="list-unstyled pricing-one__list">
-                      <li>Extra features</li>
-                      <li>Lifetime free support</li>
-                      <li>Upgrate options</li>
-                      <li>Full access</li>
+                      <li>Dashboard (P) X 4</li>
+                      <li>Assistance gratuite à vie</li>
+                      <li>Gestion Reservations</li>
+                      <li>Gestion Competition</li>
                     </ul>
                     <a href="#" className="thm-btn pricing-one__btn">
-                      <span>Choose Plan</span>
+                      <span>Choisir un forfait</span>
                     </a>
 
                     <span>No hidden charges!</span>
@@ -121,21 +121,22 @@ const Pricing = (props) => {
             <Row>
               <Col lg={4}>
                 <div className="pricing-one__single">
-                  <div className="pricing-one__circle"></div>
+                  <div className="pricing-one__circle">
+                  </div>
                   <div className="pricing-one__inner">
-                    <p>Basic Pack</p>
-                    <h3>$20.00</h3>
+                    <p>Free Pack</p>
+                    <h3>$00.00</h3>
                     <ul className="list-unstyled pricing-one__list">
-                      <li>Extra features</li>
-                      <li>Lifetime free support</li>
-                      <li>Upgrate options</li>
-                      <li>Full access</li>
+                      <li>1 Mois gratuit</li>
+                      <li>Dashboard (P) </li>
+                      <li>Gestion Reservations</li>
+                      <li>Gestion Competition</li>
                     </ul>
                     <a href="#" className="thm-btn pricing-one__btn">
-                      <span>Choose Plan</span>
+                      <span>Choisir un forfait</span>
                     </a>
 
-                    <span>No hidden charges!</span>
+                    <span>Pas de frais cachés!</span>
                   </div>
                 </div>
               </Col>
@@ -144,18 +145,19 @@ const Pricing = (props) => {
                   <div className="pricing-one__circle"></div>
                   <div className="pricing-one__inner">
                     <p>Standard Pack</p>
-                    <h3>$40.00</h3>
+                    <h3>$30.00</h3>
                     <ul className="list-unstyled pricing-one__list">
-                      <li>Extra features</li>
-                      <li>Lifetime free support</li>
-                      <li>Upgrate options</li>
-                      <li>Full access</li>
+                      <li>Dashboard (P) X 1</li>
+                      <li>Accès total</li>
+                      <li>Gestion Reservations</li>
+                      <li>Gestion Competition</li>
+                      
                     </ul>
                     <a href="#" className="thm-btn pricing-one__btn">
-                      <span>Choose Plan</span>
+                      <span>Choisir un forfait</span>
                     </a>
 
-                    <span>No hidden charges!</span>
+                    <span>Pas de frais cachés!</span>
                   </div>
                 </div>
               </Col>
@@ -164,18 +166,19 @@ const Pricing = (props) => {
                   <div className="pricing-one__circle"></div>
                   <div className="pricing-one__inner">
                     <p>Ultimate Pack</p>
-                    <h3>$49.00</h3>
+                    <h3>$40.00</h3>
                     <ul className="list-unstyled pricing-one__list">
-                      <li>Extra features</li>
-                      <li>Lifetime free support</li>
-                      <li>Upgrate options</li>
-                      <li>Full access</li>
+                      <li>Dashboard (P) X 4</li>
+                      <li>Assistance gratuite à vie</li>
+                      <li>Gestion Reservations</li>
+                      <li>Gestion Competition</li>
+                      
                     </ul>
                     <a href="#" className="thm-btn pricing-one__btn">
-                      <span>Choose Plan</span>
+                      <span>Choisir un forfait</span>
                     </a>
 
-                    <span>No hidden charges!</span>
+                    <span>Pas de frais cachés!</span>
                   </div>
                 </div>
               </Col>

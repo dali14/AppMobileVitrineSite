@@ -19,27 +19,22 @@ const CTAOne = () => {
             <div className="cta-one__content">
               <BlockTitle
                 textAlign="left"
-                paraText="Best Application"
-                titleText={`Powerful Application for \n Your Projects`}
+                paraText="Meilleure application"
+                titleText={`Les avantages\n d application Sur votre Projet`}
               />
-              <div className="cta-one__text">
-                <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </p>
-              </div>
+             
               <ul className="list-unstyled cta-one__list">
                 <li>
                   <i className="fa fa-check-circle"></i>
-                  Refresing to get such a personal touch.
+                  Automatiser vos tâches administrative
                 </li>
                 <li>
                   <i className="fa fa-check-circle"></i>
-                  Duis aute irure dolor in reprehenderit in voluptate.
+                  Reste toujours connecte à votre terrain .
                 </li>
                 <li>
                   <i className="fa fa-check-circle"></i>
-                  Velit esse cillum dolore eu fugiat nulla pariatur.
+                  Organise des compétition
                 </li>
               </ul>
               <a href="#" className="thm-btn cta-one__btn">
