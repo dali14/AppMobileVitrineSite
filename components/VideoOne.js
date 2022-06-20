@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import BlockTitle from "./BlockTitle";
-import videoBG from "../assets/images/resources/video-bg-1-1.png";
+import videoBG from "../assets/images/resources/video-bg-1-1.PNG";
 
 const VideoOne = () => {
   const [open, setOpen] = useState({
