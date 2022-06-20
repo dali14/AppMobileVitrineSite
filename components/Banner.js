@@ -6,6 +6,8 @@ import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
 import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
 
 const Banner = () => {
+  ///hello this is my vitrine app
+  
   const [open, setOpen] = useState({
     isOpen: false,
   });
