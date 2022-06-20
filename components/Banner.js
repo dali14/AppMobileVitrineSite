@@ -26,7 +26,7 @@ const Banner = () => {
         <ModalVideo
           channel="youtube"
           isOpen={open.isOpen}
-          videoId="Kl5B6MBAntI"
+          videoId="v6vgfkIxIEA"
           onClose={() => setOpen({ isOpen: false })}
         />
         <div onClick={openModal} className="banner-one__video video-popup">
